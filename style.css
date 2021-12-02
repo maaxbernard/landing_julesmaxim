@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+}
+
+nav {
+    width: 100%;
+    padding: 48px;
+}
+
+.fixe-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.rsleft { 
+    float: left;
+    width: 30%;
+}
+
+.navright {
+    margin-left: 30%;
+    float: right;
+    position: fixed;
+    right: 48px;
+    top: 48px;
+}
+
+.barm{
+    padding: 3rem;
+}
+
+li {
+    list-style: none;
+    font-weight: 900;
+}
+
+.rs {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.mitem {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+#header a {
+    color: #E60062;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+div {
+    display: block;
+}
+
+.full-height {
+    scroll-snap-align: center;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.cont {
+    width: 100% !important;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.globmarg {
+    padding: 1.5rem;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.mapa {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.background1 {
+    background-color: #E60062;
+}
+
+.colonne {
+    width: 98%;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.align{
+    align-self: center;
+}
+
+.w100{
+    width: 100%;
+}
+
+.mauto{
+    margin: auto;
+}
+
+.fontlogo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .2em;
+    font-style: normal !important;
+}
+
+.tlogo {
+    fill: white;
+}
+
+.neon {
+    text-shadow: 0 0 0.6rem #fff, 0 0 1.5rem #e60062, -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd, 0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    animation: shine 2s forwards, flicker 3s infinite;
+}
+
+.p3 {
+    padding: 3rem;
+}
+
+.text-section1 {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.csection1 {
+    margin-top: 50px;
+
+}
+
+.texts1 {
+    color: #E60062;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+em{
+    font-style: italic;
+}
+
+b, strong {
+    font-weight: 900;
+}
+
+.list-pers {
+    padding-left: 0;
+    list-style: none;
+}
+
+.mt5 {
+    margin-top: 3rem;
+}
+
+.list-pers::before, .list-pers::after {
+    content: "";
+    display: block;
+    width: 1px;
+    margin: 30px auto 30px auto;
+    height: 70px;
+    background-color: #E60062;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 0;
+    padding: 13px 40px;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+}
+
+.btncolor {
+    color: #fff;
+    background-color: #E60062;
+    border-color: #E60062;
+    text-decoration: none;
+}
+
+.fonti {
+    font-style: italic;
+}
+
+.fontwb {
+    font-weight: 900;
+}
+
+.col-left {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+
+.xl {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    margin-left: 16.6666666667%;
+}
+
+.odej::before, .odej::after {
+    content: "";
+    display: block;
+    width: 1px;
+    margin: 30px auto 30px auto;
+    height: 70px;
+    background-color: #E60062;
+}
+
+.odej {
+    font-style: italic;
+    text-align: right;
+    display: inline-block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+
+.rose {
+    color: #E60062;
+}
+
+.col-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.imagelogo {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 1rem;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.imagef {
+    margin-right: 0px;
+    width: 65px;   
+    vertical-align: middle;
+    border-style: none;
+}
+
+.lx {
+    flex: 0 0 33.3333333333%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px;
+}
+
+.fin {
+    display: inline-block;
+}
+
+.space {
+    padding-right: 2em;
+}
+
+.legal {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.barre:after{
+    content: '|';
+    padding: 0 25px 0 ;
+}
+
+.nov {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-style: normal;
+    color: #E60062;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.email {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #E60062;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#hashtag {
+    background: url(https://novagency.eu/public/wp-content/themes/novagency/assets/images/hashtag.svg) no-repeat;
+    background-position: left bottom;
+    background-size: 30%;
+}
+
+.bgbtn {
+    background-color: #E60062;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    border-style: none;
+    transition-duration: 0.4s;
+}
+
+.bgbtn a{
+    text-decoration: none;
+    color: white
+}
+
+.bgbtn:hover {
+    background-color: white;
+    border: 1px;
+}
+
+.bgbtn a:hover {
+    color: #E60062;
+    border-color: #E60062;
+}
+
+
+
+/*BANNER*/
+
+
+
+
+
+
